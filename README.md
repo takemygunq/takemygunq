@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/STM32-HAL%20%2F%20CMSIS-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-Linux-A22846?style=flat-square&logo=raspberrypi&logoColor=white" />
   <img src="https://img.shields.io/badge/UART%20·%20I²C%20·%20SPI%20·%20GPIO-0891b2?style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=takemygunq&style=flat-square&color=059669&label=profile%20views" />
 </p>
 
 ### 🔌 About me
@@ -28,9 +27,9 @@ typedef struct {
     const char *bus[4];     // { "UART", "I2C", "SPI", "GPIO" }
     const char *lang[2];    // { "C", "Python" }
     const char *side_quest; // "frontend + backend"
-} dev_t;
+} developer_t;
 
-static const dev_t nevzorl = {
+static const developer_t nevzorl = {
     .focus      = "Embedded",
     .mcu        = { "STM32", "Raspberry Pi" },
     .bus        = { "UART", "I2C", "SPI", "GPIO" },
@@ -55,6 +54,10 @@ static const dev_t nevzorl = {
     <td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,tailwind,sqlite&theme=dark" /></td>
   </tr>
   <tr>
+    <td><b>☕ JVM</b></td>
+    <td><img src="https://skillicons.dev/icons?i=java,maven&theme=dark" /></td>
+  </tr>
+  <tr>
     <td><b>🧰 Tools</b></td>
     <td><img src="https://skillicons.dev/icons?i=git,github,vscode,docker&theme=dark" /></td>
   </tr>
@@ -65,7 +68,7 @@ static const dev_t nevzorl = {
 | | Project | What it is | Stack |
 |---|---|---|---|
 | ⚖️ | **Verdict** | Several AI models hold a courtroom trial over a marketing project and deliver a verdict | TypeScript · Next.js |
-| 🎮 | [**ZStaffGiver**](https://github.com/takemygunq/ZStaffGiver) | A Minecraft server plugin | Java |
+| 🎮 | [**MineGranter**](https://github.com/takemygunq/MineGranter) | Minecraft server plugin: staff roles, shifts and player reports with Telegram notifications | Java · Spigot / Paper |
 
 ### ⚖️ Put your code on trial
 
@@ -83,14 +86,6 @@ Cases heard: **0**. Be the first plaintiff!
 <!-- CASES:END -->
 
 ### 📊 Activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=takemygunq&theme=radical&background=06100d&ring=34d399&fire=22d3ee&currStreakLabel=34d399&sideLabels=e6fff7&currStreakNum=e6fff7&sideNums=e6fff7&dates=6fa293&stroke=1f2d29&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=takemygunq&bg_color=06100d&color=6fa293&line=34d399&point=22d3ee&area=true&area_color=34d399&hide_border=true&title_color=e6fff7&custom_title=Contributions%20this%20month" width="100%" />
-</p>
 
 <p align="center">
   <picture>

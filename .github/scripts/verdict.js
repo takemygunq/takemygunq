@@ -25,17 +25,28 @@ const SENTENCES = {
   ],
 };
 
+// Only these charges are shown on the profile. Anything else anyone types stays in their own issue
+// and appears in the registry as "Custom charge" — strangers can't put arbitrary text on the profile.
+const PRESETS = ["Deployed on a Friday", "Forgot volatile in an ISR", "Swapped TX and RX"];
+
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const weighted = (items) => {
   let r = Math.random() * items.reduce((s, i) => s + i.weight, 0);
   return items.find((i) => (r -= i.weight) < 0) ?? items[0];
 };
+// Strips markup, links and @mentions, so the bot never posts links or pings anyone
 const clean = (s) =>
-  s.replace(/[<>|`\[\]\\*_#]/g, "").replace(/\s+/g, " ").trim().slice(0, 70) || "Untitled";
+  s
+    .replace(/https?:\/\/\S+|www\.\S+/gi, "")
+    .replace(/[<>|`\[\]\\*_#@]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 70) || "Untitled";
 
 module.exports = async ({ github, context }) => {
   const issue = context.payload.issue;
   const subject = clean(issue.title.replace(/^verdict:\s*/i, ""));
+  const charge = PRESETS.find((p) => p.toLowerCase() === subject.toLowerCase()) ?? "✍️ Custom charge";
   const outcome = weighted(OUTCOMES);
   const chance = Math.floor(Math.random() * 101);
   const sentence = pick(SENTENCES[outcome.key]);
@@ -46,7 +57,7 @@ module.exports = async ({ github, context }) => {
   if (outcome.key === "guilty") state.guilty += 1;
   if (outcome.key === "acquitted") state.acquitted += 1;
   state.cases.unshift({
-    n: state.total, user, subject, outcome: outcome.label, chance,
+    n: state.total, user, subject: charge, outcome: outcome.label, chance,
     date: new Date().toISOString().slice(0, 10), issue: issue.number,
   });
   state.cases = state.cases.slice(0, 5);
