@@ -70,6 +70,12 @@ static const developer_t nevzorl = {
 | ⚖️ | **Verdict** | Several AI models hold a courtroom trial over a marketing project and deliver a verdict | TypeScript · Next.js |
 | 🎮 | [**MineGranter**](https://github.com/takemygunq/MineGranter) | Minecraft server plugin: staff roles, shifts and player reports with Telegram notifications | Java · Spigot / Paper |
 
+### 📬 Contact
+
+<p align="left">
+  <a href="https://t.me/zenvixanet"><img src="https://img.shields.io/badge/Telegram-@zenvixanet-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram @zenvixanet" /></a>
+</p>
+
 ### 📊 Activity
 
 <p align="center">
