@@ -70,21 +70,6 @@ static const developer_t nevzorl = {
 | ⚖️ | **Verdict** | Several AI models hold a courtroom trial over a marketing project and deliver a verdict | TypeScript · Next.js |
 | 🎮 | [**MineGranter**](https://github.com/takemygunq/MineGranter) | Minecraft server plugin: staff roles, shifts and player reports with Telegram notifications | Java · Spigot / Paper |
 
-### ⚖️ Put your code on trial
-
-Inspired by my Verdict project. File a case and within a minute the bot will pass sentence and add it to the registry below.
-
-<p align="center">
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+Deployed+on+a+Friday"><img src="https://img.shields.io/badge/📅_Deployed_on_a_Friday-1f2d29?style=for-the-badge" /></a>
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+Forgot+volatile+in+an+ISR"><img src="https://img.shields.io/badge/⚡_Forgot_volatile_in_an_ISR-1f2d29?style=for-the-badge" /></a>
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+Swapped+TX+and+RX"><img src="https://img.shields.io/badge/🔌_Swapped_TX_and_RX-1f2d29?style=for-the-badge" /></a>
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+"><img src="https://img.shields.io/badge/✍️_Your_own_charge-059669?style=for-the-badge" /></a>
-</p>
-
-<!-- CASES:START -->
-Cases heard: **0**. Be the first plaintiff!
-<!-- CASES:END -->
-
 ### 📊 Activity
 
 <p align="center">
