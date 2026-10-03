@@ -1,27 +1,27 @@
 const fs = require("fs");
 
 const OUTCOMES = [
-  { key: "acquitted", label: "🟢 Оправдан", weight: 45 },
-  { key: "guilty", label: "🔴 Виновен", weight: 35 },
-  { key: "probation", label: "🟡 Условно", weight: 20 },
+  { key: "acquitted", label: "🟢 Acquitted", weight: 45 },
+  { key: "guilty", label: "🔴 Guilty", weight: 35 },
+  { key: "probation", label: "🟡 Probation", weight: 20 },
 ];
 
 const SENTENCES = {
   acquitted: [
-    "Суд не нашёл состава преступления. Можно мержить.",
-    "Прокурор не смог доказать вину. Деплой разрешён.",
-    "Адвокат был убедителен. Свободен, иди коммить.",
+    "No crime found. You may merge.",
+    "The prosecution failed to prove guilt. Deploy approved.",
+    "The defense was convincing. You're free — go commit.",
   ],
   guilty: [
-    "Приговаривается к написанию юнит-тестов (3 шт.).",
-    "Приговаривается к рефакторингу без права на `any`.",
-    "Приговаривается к чтению документации от корки до корки.",
-    "Приговаривается к ревью чужого PR на 2000 строк.",
+    "Sentenced to writing 3 unit tests.",
+    "Sentenced to a refactor with no `void *` allowed.",
+    "Sentenced to reading the whole reference manual, cover to cover.",
+    "Sentenced to reviewing a 2000-line PR.",
   ],
   probation: [
-    "Испытательный срок — до следующего релиза.",
-    "Условно. Ещё один `console.log` в проде — и реальный срок.",
-    "Отсрочка приговора до пятничного деплоя.",
+    "On probation until the next release.",
+    "Suspended sentence. One more `printf` in an ISR and it's real time.",
+    "Sentencing postponed until the Friday deploy.",
   ],
 };
 
@@ -31,7 +31,7 @@ const weighted = (items) => {
   return items.find((i) => (r -= i.weight) < 0) ?? items[0];
 };
 const clean = (s) =>
-  s.replace(/[<>|`\[\]\\*_#]/g, "").replace(/\s+/g, " ").trim().slice(0, 70) || "Без названия";
+  s.replace(/[<>|`\[\]\\*_#]/g, "").replace(/\s+/g, " ").trim().slice(0, 70) || "Untitled";
 
 module.exports = async ({ github, context }) => {
   const issue = context.payload.issue;
@@ -56,8 +56,8 @@ module.exports = async ({ github, context }) => {
     .map((c) => `| [#${c.n}](https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${c.issue}) | ${c.subject} | ${c.outcome} | ${c.chance}% | [@${c.user}](https://github.com/${c.user}) |`)
     .join("\n");
   const block =
-    `Рассмотрено дел: **${state.total}** · оправдано: **${state.acquitted}** · осуждено: **${state.guilty}**\n\n` +
-    `| Дело | Обвинение | Вердикт | Шанс на успех | Истец |\n|---|---|---|---|---|\n${rows}`;
+    `Cases heard: **${state.total}** · acquitted: **${state.acquitted}** · convicted: **${state.guilty}**\n\n` +
+    `| Case | Charge | Verdict | Success chance | Plaintiff |\n|---|---|---|---|---|\n${rows}`;
 
   const readme = fs.readFileSync("README.md", "utf8");
   fs.writeFileSync(
@@ -69,9 +69,9 @@ module.exports = async ({ github, context }) => {
     ...context.repo,
     issue_number: issue.number,
     body:
-      `## ⚖️ Дело №${state.total}: «${subject}»\n\n` +
-      `**Вердикт:** ${outcome.label}\n**Шанс на успех:** ${chance}%\n**Приговор:** ${sentence}\n\n` +
-      `> Заседание закрыто. Решение внесено в [реестр](https://github.com/${context.repo.owner}). Спасибо, @${user}!`,
+      `## ⚖️ Case #${state.total}: “${subject}”\n\n` +
+      `**Verdict:** ${outcome.label}\n**Success chance:** ${chance}%\n**Sentence:** ${sentence}\n\n` +
+      `> Court adjourned. The ruling is now in the [registry](https://github.com/${context.repo.owner}). Thanks, @${user}!`,
   });
   await github.rest.issues.update({ ...context.repo, issue_number: issue.number, state: "closed" });
 };

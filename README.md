@@ -11,15 +11,15 @@
   <img src="https://img.shields.io/badge/STM32-HAL%20%2F%20CMSIS-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-Linux-A22846?style=flat-square&logo=raspberrypi&logoColor=white" />
   <img src="https://img.shields.io/badge/UART%20·%20I²C%20·%20SPI%20·%20GPIO-0891b2?style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=takemygunq&style=flat-square&color=059669&label=просмотры" />
+  <img src="https://komarev.com/ghpvc/?username=takemygunq&style=flat-square&color=059669&label=profile%20views" />
 </p>
 
-### 🔌 Обо мне
+### 🔌 About me
 
-Я embedded-разработчик: мне интереснее всего, когда код управляет железом. Пишу прошивки на **C** под **STM32**,
-поднимаю **Raspberry Pi** как мозг устройства, а связь между ними и с датчиками делаю через **UART, I²C, SPI и GPIO**.
-На **Python** пишу скрипты, утилиты, тулзы для отладки и всё, что крутится на Pi. Когда устройству нужен
-интерфейс или сервер, добавляю немного **фронтенда и бэкенда**.
+I'm an embedded developer — I'm happiest when code is driving real hardware. I write **C** firmware for **STM32**,
+use **Raspberry Pi** as the brain of a device, and wire everything together with sensors over **UART, I²C, SPI and GPIO**.
+**Python** is my go-to for scripts, debugging tools and anything running on the Pi. When a device needs a UI
+or a server, I add a bit of **frontend and backend**.
 
 ```c
 typedef struct {
@@ -39,7 +39,7 @@ static const dev_t nevzorl = {
 };
 ```
 
-### 🛠️ Стек
+### 🛠️ Tech stack
 
 <table>
   <tr>
@@ -47,49 +47,49 @@ static const dev_t nevzorl = {
     <td><img src="https://skillicons.dev/icons?i=c,cpp,py,raspberrypi,arduino,linux,bash&theme=dark" /></td>
   </tr>
   <tr>
-    <td><b>📡 Железо</b></td>
-    <td>STM32 (HAL, CMSIS, регистры) · Raspberry Pi · UART · I²C · SPI · GPIO · PWM · ADC · прерывания и DMA · даташиты, логический анализатор и осциллограф</td>
+    <td><b>📡 Hardware</b></td>
+    <td>STM32 (HAL, CMSIS, bare registers) · Raspberry Pi · UART · I²C · SPI · GPIO · PWM · ADC · interrupts &amp; DMA · datasheets, logic analyzer &amp; oscilloscope</td>
   </tr>
   <tr>
-    <td><b>🌐 Веб</b></td>
+    <td><b>🌐 Web</b></td>
     <td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,tailwind,sqlite&theme=dark" /></td>
   </tr>
   <tr>
-    <td><b>🧰 Тулзы</b></td>
+    <td><b>🧰 Tools</b></td>
     <td><img src="https://skillicons.dev/icons?i=git,github,vscode,docker&theme=dark" /></td>
   </tr>
 </table>
 
-### 📦 Проекты
+### 📦 Projects
 
-| | Проект | Что это | Стек |
+| | Project | What it is | Stack |
 |---|---|---|---|
-| ⚖️ | **Verdict** | Несколько ИИ-моделей устраивают суд над маркетинговым проектом и выносят вердикт | TypeScript · Next.js |
-| 🎮 | [**ZStaffGiver**](https://github.com/takemygunq/ZStaffGiver) | Плагин для Minecraft-сервера | Java |
+| ⚖️ | **Verdict** | Several AI models hold a courtroom trial over a marketing project and deliver a verdict | TypeScript · Next.js |
+| 🎮 | [**ZStaffGiver**](https://github.com/takemygunq/ZStaffGiver) | A Minecraft server plugin | Java |
 
-### ⚖️ Суд над твоим кодом
+### ⚖️ Put your code on trial
 
-Вдохновлено моим проектом Verdict. Подай дело, и через минуту бот вынесет приговор и впишет его в реестр ниже.
+Inspired by my Verdict project. File a case and within a minute the bot will pass sentence and add it to the registry below.
 
 <p align="center">
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=%D0%9D%D0%B0%D0%B6%D0%BC%D0%B8+Submit+%E2%80%94+%D1%81%D1%83%D0%B4+%D0%B2%D1%8B%D0%BD%D0%B5%D1%81%D0%B5%D1%82+%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D0%BA%D1%82+%D0%B7%D0%B0+%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D1%83.&title=verdict%3A+%D0%94%D0%B5%D0%BF%D0%BB%D0%BE%D0%B9+%D0%B2+%D0%BF%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D1%83"><img src="https://img.shields.io/badge/📅_Деплой_в_пятницу-1f2d29?style=for-the-badge" /></a>
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=%D0%9D%D0%B0%D0%B6%D0%BC%D0%B8+Submit+%E2%80%94+%D1%81%D1%83%D0%B4+%D0%B2%D1%8B%D0%BD%D0%B5%D1%81%D0%B5%D1%82+%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D0%BA%D1%82+%D0%B7%D0%B0+%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D1%83.&title=verdict%3A+%D0%97%D0%B0%D0%B1%D1%8B%D0%BB+volatile+%D0%B2+%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8"><img src="https://img.shields.io/badge/⚡_Забыл_volatile_в_прерывании-1f2d29?style=for-the-badge" /></a>
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=%D0%9D%D0%B0%D0%B6%D0%BC%D0%B8+Submit+%E2%80%94+%D1%81%D1%83%D0%B4+%D0%B2%D1%8B%D0%BD%D0%B5%D1%81%D0%B5%D1%82+%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D0%BA%D1%82+%D0%B7%D0%B0+%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D1%83.&title=verdict%3A+%D0%9F%D0%B5%D1%80%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D0%BB+TX+%D0%B8+RX"><img src="https://img.shields.io/badge/🔌_Перепутал_TX_и_RX-1f2d29?style=for-the-badge" /></a>
-  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=%D0%9D%D0%B0%D0%B6%D0%BC%D0%B8+Submit+%E2%80%94+%D1%81%D1%83%D0%B4+%D0%B2%D1%8B%D0%BD%D0%B5%D1%81%D0%B5%D1%82+%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D0%BA%D1%82+%D0%B7%D0%B0+%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D1%83.&title=verdict%3A+"><img src="https://img.shields.io/badge/✍️_Своё_обвинение-059669?style=for-the-badge" /></a>
+  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+Deployed+on+a+Friday"><img src="https://img.shields.io/badge/📅_Deployed_on_a_Friday-1f2d29?style=for-the-badge" /></a>
+  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+Forgot+volatile+in+an+ISR"><img src="https://img.shields.io/badge/⚡_Forgot_volatile_in_an_ISR-1f2d29?style=for-the-badge" /></a>
+  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+Swapped+TX+and+RX"><img src="https://img.shields.io/badge/🔌_Swapped_TX_and_RX-1f2d29?style=for-the-badge" /></a>
+  <a href="https://github.com/takemygunq/takemygunq/issues/new?body=Just+hit+Submit+%E2%80%94+the+court+will+rule+within+a+minute.&title=verdict%3A+"><img src="https://img.shields.io/badge/✍️_Your_own_charge-059669?style=for-the-badge" /></a>
 </p>
 
 <!-- CASES:START -->
-Рассмотрено дел: **0**. Стань первым истцом!
+Cases heard: **0**. Be the first plaintiff!
 <!-- CASES:END -->
 
-### 📊 Активность
+### 📊 Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=takemygunq&theme=radical&background=06100d&ring=34d399&fire=22d3ee&currStreakLabel=34d399&sideLabels=e6fff7&currStreakNum=e6fff7&sideNums=e6fff7&dates=6fa293&stroke=1f2d29&hide_border=true&locale=ru" height="165" />
+  <img src="https://streak-stats.demolab.com?user=takemygunq&theme=radical&background=06100d&ring=34d399&fire=22d3ee&currStreakLabel=34d399&sideLabels=e6fff7&currStreakNum=e6fff7&sideNums=e6fff7&dates=6fa293&stroke=1f2d29&hide_border=true" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=takemygunq&bg_color=06100d&color=6fa293&line=34d399&point=22d3ee&area=true&area_color=34d399&hide_border=true&title_color=e6fff7&custom_title=Коммиты%20за%20месяц" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=takemygunq&bg_color=06100d&color=6fa293&line=34d399&point=22d3ee&area=true&area_color=34d399&hide_border=true&title_color=e6fff7&custom_title=Contributions%20this%20month" width="100%" />
 </p>
 
 <p align="center">
