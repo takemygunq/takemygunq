@@ -17,7 +17,7 @@
   <img src="assets/pcb.gif" alt="Orange traces pulsing around a microchip" width="100%" />
 </p>
 
-### 🔌 About me
+### <img src="assets/hd-about.svg" width="32" height="32" align="absmiddle" alt="" /> About me
 
 I'm an embedded developer — I'm happiest when code is driving real hardware. I write **C** firmware for **STM32**,
 use **Raspberry Pi** as the brain of a device, and wire everything together with sensors over **UART, I²C, SPI and GPIO**.
@@ -42,32 +42,32 @@ static const developer_t nevzorl = {
 };
 ```
 
-### 🛠️ Tech stack
+### <img src="assets/hd-stack.svg" width="32" height="32" align="absmiddle" alt="" /> Tech stack
 
 <table>
   <tr>
-    <td width="130"><b>⚡ Embedded</b></td>
+    <td width="130"><b><img src="assets/hd-embedded.svg" width="24" height="24" align="absmiddle" alt="" /> Embedded</b></td>
     <td><img src="assets/st-c.svg" width="48" height="48" alt="c" /> <img src="assets/st-cpp.svg" width="48" height="48" alt="cpp" /> <img src="assets/st-python.svg" width="48" height="48" alt="python" /> <img src="assets/st-raspberrypi.svg" width="48" height="48" alt="raspberrypi" /> <img src="assets/st-arduino.svg" width="48" height="48" alt="arduino" /> <img src="assets/st-linux.svg" width="48" height="48" alt="linux" /> <img src="assets/st-bash.svg" width="48" height="48" alt="bash" /></td>
   </tr>
   <tr>
-    <td><b>📡 Hardware</b></td>
+    <td><b><img src="assets/hd-hardware.svg" width="24" height="24" align="absmiddle" alt="" /> Hardware</b></td>
     <td><img src="assets/hw-stm32.svg" width="48" height="48" alt="STM32" /> <img src="assets/hw-uart.svg" width="48" height="48" alt="UART" /> <img src="assets/hw-i2c.svg" width="48" height="48" alt="I2C" /> <img src="assets/hw-spi.svg" width="48" height="48" alt="SPI" /> <img src="assets/hw-gpio.svg" width="48" height="48" alt="GPIO" /> <img src="assets/hw-pwm.svg" width="48" height="48" alt="PWM" /> <img src="assets/hw-adc.svg" width="48" height="48" alt="ADC" /> <img src="assets/hw-dma.svg" width="48" height="48" alt="DMA" /> <img src="assets/hw-irq.svg" width="48" height="48" alt="IRQ" /> <img src="assets/hw-scope.svg" width="48" height="48" alt="SCOPE" /></td>
   </tr>
   <tr>
-    <td><b>🌐 Web</b></td>
+    <td><b><img src="assets/hd-web.svg" width="24" height="24" align="absmiddle" alt="" /> Web</b></td>
     <td><img src="assets/st-ts.svg" width="48" height="48" alt="ts" /> <img src="assets/st-react.svg" width="48" height="48" alt="react" /> <img src="assets/st-nextjs.svg" width="48" height="48" alt="nextjs" /> <img src="assets/st-nodejs.svg" width="48" height="48" alt="nodejs" /> <img src="assets/st-tailwind.svg" width="48" height="48" alt="tailwind" /> <img src="assets/st-sqlite.svg" width="48" height="48" alt="sqlite" /></td>
   </tr>
   <tr>
-    <td><b>☕ JVM</b></td>
+    <td><b><img src="assets/hd-jvm.svg" width="24" height="24" align="absmiddle" alt="" /> JVM</b></td>
     <td><img src="assets/st-java.svg" width="48" height="48" alt="java" /> <img src="assets/st-maven.svg" width="48" height="48" alt="maven" /></td>
   </tr>
   <tr>
-    <td><b>🧰 Tools</b></td>
+    <td><b><img src="assets/hd-tools.svg" width="24" height="24" align="absmiddle" alt="" /> Tools</b></td>
     <td><img src="assets/st-git.svg" width="48" height="48" alt="git" /> <img src="assets/st-github.svg" width="48" height="48" alt="github" /> <img src="assets/st-vscode.svg" width="48" height="48" alt="vscode" /> <img src="assets/st-docker.svg" width="48" height="48" alt="docker" /></td>
   </tr>
 </table>
 
-### 📦 Projects
+### <img src="assets/hd-projects.svg" width="32" height="32" align="absmiddle" alt="" /> Projects
 
 | | Project | What it is | Stack |
 |---|---|---|---|
@@ -75,13 +75,13 @@ static const developer_t nevzorl = {
 | <img src="assets/pj-verdict.svg" width="40" height="40" alt="verdict" /> | [**Verdict**](https://github.com/takemygunq/Verdict) | An AI courtroom for marketing materials: a jury of AI models argues over your ad and delivers a verdict | TypeScript · Next.js · PixiJS |
 | <img src="assets/pj-minegranter.svg" width="40" height="40" alt="minegranter" /> | [**MineGranter**](https://github.com/takemygunq/MineGranter) | Minecraft server plugin: staff roles, shifts and player reports with Telegram notifications | Java · Spigot / Paper |
 
-### 📬 Contact
+### <img src="assets/hd-contact.svg" width="32" height="32" align="absmiddle" alt="" /> Contact
 
 <p align="left">
   <a href="https://t.me/zenvixanet"><img src="https://img.shields.io/badge/Telegram-@zenvixanet-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram @zenvixanet" /></a>
 </p>
 
-### 📊 Activity
+### <img src="assets/hd-activity.svg" width="32" height="32" align="absmiddle" alt="" /> Activity
 
 <p align="center">
   <picture>

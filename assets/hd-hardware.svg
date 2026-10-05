@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="hardware">
+<rect width="48" height="48" rx="10" fill="#1c120c"/><rect x=".5" y=".5" width="47" height="47" rx="9.5" fill="none" stroke="#ff6a1f" stroke-opacity=".35"/>
+<g fill="none" stroke="#ff6a1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="15" y="15" width="18" height="18" rx="3"/><path d="M20 9v6M20 33v6M9 20h6M33 20h6"/><path d="M28 9v6M28 33v6M9 28h6M33 28h6"/></g></svg>
