@@ -67,6 +67,7 @@ static const developer_t nevzorl = {
 
 | | Project | What it is | Stack |
 |---|---|---|---|
+| 🔌 | [**CircuitMind**](https://github.com/takemygunq/CircuitMind) | An AI electronics designer: describe a device, get the wiring diagram, schematic, calculations, simulation and firmware | TypeScript · Next.js · custom SVG engine |
 | ⚖️ | [**Verdict**](https://github.com/takemygunq/Verdict) | An AI courtroom for marketing materials: a jury of AI models argues over your ad and delivers a verdict | TypeScript · Next.js · PixiJS |
 | 🎮 | [**MineGranter**](https://github.com/takemygunq/MineGranter) | Minecraft server plugin: staff roles, shifts and player reports with Telegram notifications | Java · Spigot / Paper |
 
