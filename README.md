@@ -80,12 +80,3 @@ static const developer_t nevzorl = {
 <p align="left">
   <a href="https://t.me/zenvixanet"><img src="assets/contact-telegram.svg" width="260" height="48" alt="Telegram @zenvixanet" /></a>
 </p>
-
-### <img src="assets/hd-activity.svg" width="32" height="32" align="absmiddle" alt="" /> Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/takemygunq/takemygunq/output/snake-dark.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/takemygunq/takemygunq/output/snake.svg" />
-  </picture>
-</p>
