@@ -47,7 +47,7 @@ static const developer_t nevzorl = {
 <table>
   <tr>
     <td width="130"><b>⚡ Embedded</b></td>
-    <td><img src="https://skillicons.dev/icons?i=c,cpp,py,raspberrypi,arduino,linux,bash&theme=dark" /></td>
+    <td><img src="assets/st-c.svg" width="48" height="48" alt="c" /> <img src="assets/st-cpp.svg" width="48" height="48" alt="cpp" /> <img src="assets/st-python.svg" width="48" height="48" alt="python" /> <img src="assets/st-raspberrypi.svg" width="48" height="48" alt="raspberrypi" /> <img src="assets/st-arduino.svg" width="48" height="48" alt="arduino" /> <img src="assets/st-linux.svg" width="48" height="48" alt="linux" /> <img src="assets/st-bash.svg" width="48" height="48" alt="bash" /></td>
   </tr>
   <tr>
     <td><b>📡 Hardware</b></td>
@@ -55,15 +55,15 @@ static const developer_t nevzorl = {
   </tr>
   <tr>
     <td><b>🌐 Web</b></td>
-    <td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,tailwind,sqlite&theme=dark" /></td>
+    <td><img src="assets/st-ts.svg" width="48" height="48" alt="ts" /> <img src="assets/st-react.svg" width="48" height="48" alt="react" /> <img src="assets/st-nextjs.svg" width="48" height="48" alt="nextjs" /> <img src="assets/st-nodejs.svg" width="48" height="48" alt="nodejs" /> <img src="assets/st-tailwind.svg" width="48" height="48" alt="tailwind" /> <img src="assets/st-sqlite.svg" width="48" height="48" alt="sqlite" /></td>
   </tr>
   <tr>
     <td><b>☕ JVM</b></td>
-    <td><img src="https://skillicons.dev/icons?i=java,maven&theme=dark" /></td>
+    <td><img src="assets/st-java.svg" width="48" height="48" alt="java" /> <img src="assets/st-maven.svg" width="48" height="48" alt="maven" /></td>
   </tr>
   <tr>
     <td><b>🧰 Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,vscode,docker&theme=dark" /></td>
+    <td><img src="assets/st-git.svg" width="48" height="48" alt="git" /> <img src="assets/st-github.svg" width="48" height="48" alt="github" /> <img src="assets/st-vscode.svg" width="48" height="48" alt="vscode" /> <img src="assets/st-docker.svg" width="48" height="48" alt="docker" /></td>
   </tr>
 </table>
 
