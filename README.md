@@ -51,7 +51,7 @@ static const developer_t nevzorl = {
   </tr>
   <tr>
     <td><b>📡 Hardware</b></td>
-    <td><img src="assets/hw-stm32.svg" width="48" height="48" alt="STM32" /> <img src="assets/hw-uart.svg" width="48" height="48" alt="UART" /> <img src="assets/hw-i2c.svg" width="48" height="48" alt="I2C" /> <img src="assets/hw-spi.svg" width="48" height="48" alt="SPI" /> <img src="assets/hw-gpio.svg" width="48" height="48" alt="GPIO" /> <img src="assets/hw-pwm.svg" width="48" height="48" alt="PWM" /> <img src="assets/hw-adc.svg" width="48" height="48" alt="ADC" /> <img src="assets/hw-dma.svg" width="48" height="48" alt="DMA" /> <img src="assets/hw-irq.svg" width="48" height="48" alt="IRQ" /> <img src="assets/hw-scope.svg" width="48" height="48" alt="SCOPE" /><br/><sub>STM32 HAL / CMSIS / bare registers · Raspberry Pi · datasheets · logic analyzer &amp; oscilloscope</sub></td>
+    <td><img src="assets/hw-stm32.svg" width="48" height="48" alt="STM32" /> <img src="assets/hw-uart.svg" width="48" height="48" alt="UART" /> <img src="assets/hw-i2c.svg" width="48" height="48" alt="I2C" /> <img src="assets/hw-spi.svg" width="48" height="48" alt="SPI" /> <img src="assets/hw-gpio.svg" width="48" height="48" alt="GPIO" /> <img src="assets/hw-pwm.svg" width="48" height="48" alt="PWM" /> <img src="assets/hw-adc.svg" width="48" height="48" alt="ADC" /> <img src="assets/hw-dma.svg" width="48" height="48" alt="DMA" /> <img src="assets/hw-irq.svg" width="48" height="48" alt="IRQ" /> <img src="assets/hw-scope.svg" width="48" height="48" alt="SCOPE" /></td>
   </tr>
   <tr>
     <td><b>🌐 Web</b></td>
