@@ -7,10 +7,10 @@
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/focus-Embedded-ff6a1f?style=flat-square&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/STM32-HAL%20%2F%20CMSIS-c2410c?style=flat-square&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-Linux-ea580c?style=flat-square&logo=raspberrypi&logoColor=white" />
-  <img src="https://img.shields.io/badge/UART%20·%20I²C%20·%20SPI%20·%20GPIO-f59e0b?style=flat-square" />
+  <img src="assets/bd-focus.svg" height="28" alt="focus Embedded" />
+  <img src="assets/bd-stm32.svg" height="28" alt="STM32 HAL / CMSIS" />
+  <img src="assets/bd-pi.svg" height="28" alt="Raspberry Pi Linux" />
+  <img src="assets/bd-bus.svg" height="28" alt=" UART · I²C · SPI · GPIO" />
 </p>
 
 <p align="center">

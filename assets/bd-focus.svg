@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="28" viewBox="0 0 154 28" role="img" aria-label="focus Embedded">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ff6a1f"/><stop offset="1" stop-color="#ffb020"/></linearGradient></defs>
+<rect x=".5" y=".5" width="153" height="27" rx="13.5" fill="#1c120c" stroke="#ff6a1f" stroke-opacity=".45"/>
+<g transform="translate(18,14)" fill="none" stroke="#ff6a1f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 -8L-4 1h5l-2 7 7-10H1z"/></g>
+<text x="34" y="18" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#ffddc4">focus</text>
+<path d="M78.0 1h64.4a12 12 0 0 1 12 12v2a12 12 0 0 1-12 12h-64.4z" fill="url(#g)"/>
+<text x="89.0" y="18" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" font-weight="800" fill="#1c120c">Embedded</text>
+</svg>
