@@ -1,8 +1,8 @@
 <a href="https://github.com/takemygunq">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
-    <img src="assets/hero-dark.svg" alt="nevzorl — Embedded: STM32, Raspberry Pi, C, Python" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-pi5-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-pi5-light.svg" />
+    <img src="assets/hero-pi5-dark.svg" alt="nevzorl — Embedded: STM32, Raspberry Pi, C, Python" width="100%" />
   </picture>
 </a>
 
