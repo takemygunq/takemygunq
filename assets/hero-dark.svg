@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="nevzorl — Embedded developer: STM32, Raspberry Pi, C, Python">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06100d"/><stop offset="1" stop-color="#0b1f1a"/></linearGradient>
-  <linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
-  <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#34d39910"/></pattern>
-  <radialGradient id="glow"><stop offset="0" stop-color="#34d399" stop-opacity=".28"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0604"/><stop offset="1" stop-color="#1f1109"/></linearGradient>
+  <linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="#ff6a1f"/><stop offset="1" stop-color="#ffb020"/></linearGradient>
+  <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#ff6a1f12"/></pattern>
+  <radialGradient id="glow"><stop offset="0" stop-color="#ff6a1f" stop-opacity=".28"/><stop offset="1" stop-color="#ff6a1f" stop-opacity="0"/></radialGradient>
   <clipPath id="wclip"><rect x="0" y="-4" width="250" height="30"/></clipPath>
 </defs>
 <style>
   text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
   .name{font-size:62px;font-weight:800;fill:url(#t);letter-spacing:-1px}
-  .sub{font-size:15px;fill:#6fa293}
-  .ln{font-size:13.5px;fill:#e6fff7;opacity:0;animation:in .35s ease forwards}
+  .sub{font-size:15px;fill:#b0907c}
+  .ln{font-size:13.5px;fill:#fff1e6;opacity:0;animation:in .35s ease forwards}
   .l1{animation-delay:.5s} .l2{animation-delay:1.2s} .l3{animation-delay:1.9s} .l4{animation-delay:2.6s} .l5{animation-delay:3.3s}
-  .ok{fill:#34d399} .k{fill:#22d3ee} .m{fill:#6fa293}
+  .ok{fill:#ff6a1f} .k{fill:#ffb020} .m{fill:#b0907c}
   .cur{animation:blink 1s steps(1) infinite}
-  .trace{fill:none;stroke:#34d399;stroke-width:2;stroke-opacity:.25}
-  .sig{fill:none;stroke:#22d3ee;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:14 400;animation:flow 2.4s linear infinite}
+  .trace{fill:none;stroke:#ff6a1f;stroke-width:2;stroke-opacity:.25}
+  .sig{fill:none;stroke:#ffb020;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:14 400;animation:flow 2.4s linear infinite}
   .s2{animation-delay:.8s} .s3{animation-delay:1.6s} .s4{animation-delay:.4s}
   .led{animation:led 1s steps(1) infinite}
   .wave{animation:scroll 3s linear infinite}
@@ -32,7 +32,7 @@
 <circle class="orb" cx="710" cy="140" r="160" fill="url(#glow)"/>
 
 <g transform="translate(46,38)">
-  <circle cx="0" cy="0" r="6" fill="#f87171"/><circle cx="20" cy="0" r="6" fill="#fbbf24"/><circle cx="40" cy="0" r="6" fill="#34d399"/>
+  <circle cx="0" cy="0" r="6" fill="#ef4444"/><circle cx="20" cy="0" r="6" fill="#fbbf24"/><circle cx="40" cy="0" r="6" fill="#ff6a1f"/>
   <text x="62" y="5" class="sub" style="font-size:13px">pi@raspberrypi: ~ — 115200 8N1</text>
 </g>
 <text x="42" y="114" class="name">nevzorl</text>
@@ -53,20 +53,20 @@
   <path class="sig s2" d="M618 150 H540"/>
   <path class="sig s3" d="M802 114 H860 V60"/>
   <path class="sig s4" d="M802 168 H850 V250"/>
-  <rect x="652" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="652" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="670" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="670" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="688" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="688" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="706" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="706" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="724" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="724" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="742" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="742" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="760" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="760" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="778" y="58" width="8" height="16" rx="2" fill="#6fa293"/><rect x="778" y="206" width="8" height="16" rx="2" fill="#6fa293"/><rect x="618" y="92" width="16" height="8" rx="2" fill="#6fa293"/><rect x="786" y="92" width="16" height="8" rx="2" fill="#6fa293"/><rect x="618" y="110" width="16" height="8" rx="2" fill="#6fa293"/><rect x="786" y="110" width="16" height="8" rx="2" fill="#6fa293"/><rect x="618" y="128" width="16" height="8" rx="2" fill="#6fa293"/><rect x="786" y="128" width="16" height="8" rx="2" fill="#6fa293"/><rect x="618" y="146" width="16" height="8" rx="2" fill="#6fa293"/><rect x="786" y="146" width="16" height="8" rx="2" fill="#6fa293"/><rect x="618" y="164" width="16" height="8" rx="2" fill="#6fa293"/><rect x="786" y="164" width="16" height="8" rx="2" fill="#6fa293"/><rect x="618" y="182" width="16" height="8" rx="2" fill="#6fa293"/><rect x="786" y="182" width="16" height="8" rx="2" fill="#6fa293"/>
-  <rect x="634" y="74" width="152" height="132" rx="10" fill="#111c19" stroke="#34d399" stroke-opacity=".5"/>
-  <circle cx="652" cy="92" r="4" fill="none" stroke="#6fa293"/>
-  <text x="710" y="138" text-anchor="middle" style="font-size:20px;font-weight:800;fill:#e6fff7;letter-spacing:2px">STM32</text>
-  <text x="710" y="160" text-anchor="middle" style="font-size:11px;fill:#6fa293">F103C8T6</text>
-  <circle class="led" cx="766" cy="188" r="5" fill="#34d399"/>
+  <rect x="652" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="652" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="670" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="670" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="688" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="688" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="706" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="706" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="724" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="724" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="742" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="742" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="760" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="760" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="778" y="58" width="8" height="16" rx="2" fill="#b0907c"/><rect x="778" y="206" width="8" height="16" rx="2" fill="#b0907c"/><rect x="618" y="92" width="16" height="8" rx="2" fill="#b0907c"/><rect x="786" y="92" width="16" height="8" rx="2" fill="#b0907c"/><rect x="618" y="110" width="16" height="8" rx="2" fill="#b0907c"/><rect x="786" y="110" width="16" height="8" rx="2" fill="#b0907c"/><rect x="618" y="128" width="16" height="8" rx="2" fill="#b0907c"/><rect x="786" y="128" width="16" height="8" rx="2" fill="#b0907c"/><rect x="618" y="146" width="16" height="8" rx="2" fill="#b0907c"/><rect x="786" y="146" width="16" height="8" rx="2" fill="#b0907c"/><rect x="618" y="164" width="16" height="8" rx="2" fill="#b0907c"/><rect x="786" y="164" width="16" height="8" rx="2" fill="#b0907c"/><rect x="618" y="182" width="16" height="8" rx="2" fill="#b0907c"/><rect x="786" y="182" width="16" height="8" rx="2" fill="#b0907c"/>
+  <rect x="634" y="74" width="152" height="132" rx="10" fill="#1c120c" stroke="#ff6a1f" stroke-opacity=".5"/>
+  <circle cx="652" cy="92" r="4" fill="none" stroke="#b0907c"/>
+  <text x="710" y="138" text-anchor="middle" style="font-size:20px;font-weight:800;fill:#fff1e6;letter-spacing:2px">STM32</text>
+  <text x="710" y="160" text-anchor="middle" style="font-size:11px;fill:#b0907c">F103C8T6</text>
+  <circle class="led" cx="766" cy="188" r="5" fill="#ff6a1f"/>
 </g>
 
 <g transform="translate(600,250)">
-  <text x="0" y="-8" style="font-size:10px;fill:#6fa293">TX · 0x55 · 115200 baud</text>
+  <text x="0" y="-8" style="font-size:10px;fill:#b0907c">TX · 0x55 · 115200 baud</text>
   <g clip-path="url(#wclip)">
     <g class="wave">
-      <path d="M0 0 V0 H22 V0 H44 V18 H66 V0 H88 V18 H110 V0 H132 V18 H154 V0 H176 V18 H198 V0 H220 V18 H242 V0 H264 V0 H286 V0 H308" transform="translate(0,4)" fill="none" stroke="#34d399" stroke-width="2"/>
-      <path d="M0 0 V0 H22 V0 H44 V18 H66 V0 H88 V18 H110 V0 H132 V18 H154 V0 H176 V18 H198 V0 H220 V18 H242 V0 H264 V0 H286 V0 H308" transform="translate(308,4)" fill="none" stroke="#34d399" stroke-width="2"/>
+      <path d="M0 0 V0 H22 V0 H44 V18 H66 V0 H88 V18 H110 V0 H132 V18 H154 V0 H176 V18 H198 V0 H220 V18 H242 V0 H264 V0 H286 V0 H308" transform="translate(0,4)" fill="none" stroke="#ff6a1f" stroke-width="2"/>
+      <path d="M0 0 V0 H22 V0 H44 V18 H66 V0 H88 V18 H110 V0 H132 V18 H154 V0 H176 V18 H198 V0 H220 V18 H242 V0 H264 V0 H286 V0 H308" transform="translate(308,4)" fill="none" stroke="#ff6a1f" stroke-width="2"/>
     </g>
   </g>
 </g>

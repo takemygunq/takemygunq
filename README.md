@@ -7,10 +7,14 @@
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/focus-Embedded-34d399?style=flat-square&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/STM32-HAL%20%2F%20CMSIS-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-Linux-A22846?style=flat-square&logo=raspberrypi&logoColor=white" />
-  <img src="https://img.shields.io/badge/UART%20·%20I²C%20·%20SPI%20·%20GPIO-0891b2?style=flat-square" />
+  <img src="https://img.shields.io/badge/focus-Embedded-ff6a1f?style=flat-square&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32-HAL%20%2F%20CMSIS-c2410c?style=flat-square&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-Linux-ea580c?style=flat-square&logo=raspberrypi&logoColor=white" />
+  <img src="https://img.shields.io/badge/UART%20·%20I²C%20·%20SPI%20·%20GPIO-f59e0b?style=flat-square" />
+</p>
+
+<p align="center">
+  <img src="assets/pcb.gif" alt="Orange traces pulsing around a microchip" width="100%" />
 </p>
 
 ### 🔌 About me
@@ -47,7 +51,7 @@ static const developer_t nevzorl = {
   </tr>
   <tr>
     <td><b>📡 Hardware</b></td>
-    <td>STM32 (HAL, CMSIS, bare registers) · Raspberry Pi · UART · I²C · SPI · GPIO · PWM · ADC · interrupts &amp; DMA · datasheets, logic analyzer &amp; oscilloscope</td>
+    <td><img src="assets/hw-stm32.svg" width="48" height="48" alt="STM32" /> <img src="assets/hw-uart.svg" width="48" height="48" alt="UART" /> <img src="assets/hw-i2c.svg" width="48" height="48" alt="I2C" /> <img src="assets/hw-spi.svg" width="48" height="48" alt="SPI" /> <img src="assets/hw-gpio.svg" width="48" height="48" alt="GPIO" /> <img src="assets/hw-pwm.svg" width="48" height="48" alt="PWM" /> <img src="assets/hw-adc.svg" width="48" height="48" alt="ADC" /> <img src="assets/hw-dma.svg" width="48" height="48" alt="DMA" /> <img src="assets/hw-irq.svg" width="48" height="48" alt="IRQ" /> <img src="assets/hw-scope.svg" width="48" height="48" alt="SCOPE" /><br/><sub>STM32 HAL / CMSIS / bare registers · Raspberry Pi · datasheets · logic analyzer &amp; oscilloscope</sub></td>
   </tr>
   <tr>
     <td><b>🌐 Web</b></td>
