@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="readme-studio">
+<rect width="48" height="48" rx="10" fill="#1c120c"/>
+<rect x=".5" y=".5" width="47" height="47" rx="9.5" fill="none" stroke="#ff6a1f" stroke-opacity=".35"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- canvas frame -->
+  <rect x="9" y="9" width="30" height="30" rx="3" stroke="#ff6a1f" stroke-width="2.2"/>
+  <!-- banner block -->
+  <rect x="13" y="13" width="22" height="7" rx="1.5" fill="#ff6a1f" fill-opacity=".18" stroke="#ffb020" stroke-width="1.8"/>
+  <!-- text block row 1 -->
+  <line x1="13" y1="25" x2="35" y2="25" stroke="#ff6a1f" stroke-width="2.2"/>
+  <!-- text block row 2, shorter -->
+  <line x1="13" y1="30" x2="27" y2="30" stroke="#ff6a1f" stroke-width="2.2"/>
+  <!-- drag handle dots (right side) -->
+  <circle cx="33" cy="28.5" r="1.2" fill="#ff6a1f" stroke="none"/>
+  <circle cx="33" cy="32" r="1.2" fill="#ff6a1f" stroke="none"/>
+  <!-- edit cursor chevron -->
+  <path d="M31 35 l4-4 2 2-4 4z" fill="#ffb020" stroke="none"/>
+</g>
+</svg>
