@@ -73,6 +73,7 @@ static const developer_t nevzorl = {
 |---|---|---|---|
 | <img src="assets/pj-circuitmind.svg" width="40" height="40" alt="circuitmind" /> | [**CircuitMind**](https://github.com/takemygunq/CircuitMind) | An AI electronics designer: describe a device, get the wiring diagram, schematic, calculations, simulation and firmware | TypeScript · Next.js · custom SVG engine |
 | <img src="assets/pj-verdict.svg" width="40" height="40" alt="verdict" /> | [**Verdict**](https://github.com/takemygunq/Verdict) | An AI courtroom for marketing materials: a jury of AI models argues over your ad and delivers a verdict | TypeScript · Next.js · PixiJS |
+| <img src="assets/pj-readme-studio.svg" width="40" height="40" alt="readme-studio" /> | [**README Studio**](https://github.com/takemygunq/readme-studio) | Visual drag-and-drop block editor for GitHub profile READMEs — templates, 100+ tech icons, custom SVG badges, zero dependencies | HTML · CSS · Vanilla JS |
 | <img src="assets/pj-minegranter.svg" width="40" height="40" alt="minegranter" /> | [**MineGranter**](https://github.com/takemygunq/MineGranter) | Minecraft server plugin: staff roles, shifts and player reports with Telegram notifications | Java · Spigot / Paper |
 
 ### <img src="assets/hd-contact.svg" width="32" height="32" align="absmiddle" alt="" /> Contact
