@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="48" viewBox="0 0 260 48" role="img" aria-label="Telegram @zenvixanet">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ff6a1f"/><stop offset="1" stop-color="#ffb020"/></linearGradient></defs>
+<rect x="1" y="1" width="258" height="46" rx="12" fill="#1c120c" stroke="url(#g)" stroke-width="1.5"/>
+<g transform="translate(14,8)"><rect width="32" height="32" rx="8" fill="url(#g)"/>
+<path d="M7 16.5l17-7c.8-.3 1.5.2 1.2 1.4l-2.9 13.6c-.2 1-.8 1.2-1.6.8l-4.4-3.3-2.1 2c-.2.2-.4.4-.9.4l.3-4.5 8.2-7.4c.4-.3-.1-.5-.5-.2l-10.1 6.4-4.4-1.4c-.9-.3-.9-.9.2-1.3z" fill="#1c120c"/></g>
+<text x="58" y="21" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#b0907c">TELEGRAM</text>
+<text x="58" y="37" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15" font-weight="800" fill="#fff1e6">@zenvixanet</text>
+<path d="M232 18l6 6-6 6" fill="none" stroke="#ffb020" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

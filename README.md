@@ -78,7 +78,7 @@ static const developer_t nevzorl = {
 ### <img src="assets/hd-contact.svg" width="32" height="32" align="absmiddle" alt="" /> Contact
 
 <p align="left">
-  <a href="https://t.me/zenvixanet"><img src="https://img.shields.io/badge/Telegram-@zenvixanet-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram @zenvixanet" /></a>
+  <a href="https://t.me/zenvixanet"><img src="assets/contact-telegram.svg" width="260" height="48" alt="Telegram @zenvixanet" /></a>
 </p>
 
 ### <img src="assets/hd-activity.svg" width="32" height="32" align="absmiddle" alt="" /> Activity
